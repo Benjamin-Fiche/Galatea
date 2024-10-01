@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugExe|Win32">
+      <Configuration>DebugExe</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugExe|x64">
+      <Configuration>DebugExe</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{B0D11396-5463-4147-B24C-15935103FFC8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GalateaDLL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>GalateaAPI</TargetName>
+    <OutDir>$(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>GalateaAPI</TargetName>
+    <OutDir>$(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>GalateaAPI</TargetName>
+    <OutDir>$(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;GALATEADLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>../Includes/pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Includes; $(SolutionDir)Includes/Libraries</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>..\Libraries\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;glfw3.lib;OpenGL32.lib;assimp-vc142-mtd.lib;IrrXMLd.lib;zlibd.lib;zlibstaticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(SolutionDir)DLL\$(Configuration)\* $(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\.</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;GALATEADLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>../Includes/pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>../Includes; $(SolutionDir)Includes/Libraries</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>..\Libraries\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;glfw3.lib;OpenGL32.lib;assimp-vc142-mtd.lib;IrrXMLd.lib;zlibd.lib;zlibstaticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(SolutionDir)DLL\$(Configuration)\* $(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\.</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;GALATEADLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;GALATEADLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;GALATEADLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;GALATEADLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>../Includes/pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>../Includes</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>..\Libraries\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;glfw3.lib;OpenGL32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(SolutionDir)DLL\$(Configuration)\* $(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\.</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sources\ComponentSystem\Component.cpp" />
+    <ClCompile Include="..\Sources\ComponentSystem\ComponentsManager.cpp" />
+    <ClCompile Include="..\Sources\ComponentSystem\GameObject.cpp" />
+    <ClCompile Include="..\Sources\Core\Engine.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Camera.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Material.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Mesh.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Model.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Renderer.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\RHI.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Shader.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Texture.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\WindowManager.cpp" />
+    <ClCompile Include="..\Sources\Core\ResourcesManager.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene.cpp" />
+    <ClCompile Include="..\Sources\Core\SceneManager.cpp" />
+    <ClCompile Include="..\Sources\Core\SerializationManager.cpp" />
+    <ClCompile Include="..\Sources\Core\Time.cpp" />
+    <ClCompile Include="..\Sources\Debug\Assert.cpp" />
+    <ClCompile Include="..\Sources\Debug\Log.cpp" />
+    <ClCompile Include="..\Sources\dllmain.cpp" />
+    <ClCompile Include="..\Sources\Inputs\Event.cpp" />
+    <ClCompile Include="..\Sources\Inputs\GamepadState.cpp" />
+    <ClCompile Include="..\Sources\Inputs\Input.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputAction.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputAxis.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputManager.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputPattern.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputType.cpp" />
+    <ClCompile Include="..\Sources\Maths\Quaternion.cpp" />
+    <ClCompile Include="..\Sources\Maths\Vec2.cpp" />
+    <ClCompile Include="..\Sources\Maths\Vec3.cpp" />
+    <ClCompile Include="..\Sources\Physic\Transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\Cereal\access.hpp" />
+    <ClInclude Include="..\Includes\Cereal\archives\adapters.hpp" />
+    <ClInclude Include="..\Includes\Cereal\archives\binary.hpp" />
+    <ClInclude Include="..\Includes\Cereal\archives\json.hpp" />
+    <ClInclude Include="..\Includes\Cereal\archives\portable_binary.hpp" />
+    <ClInclude Include="..\Includes\Cereal\archives\xml.hpp" />
+    <ClInclude Include="..\Includes\Cereal\cereal.hpp" />
+    <ClInclude Include="..\Includes\Cereal\details\helpers.hpp" />
+    <ClInclude Include="..\Includes\Cereal\details\polymorphic_impl.hpp" />
+    <ClInclude Include="..\Includes\Cereal\details\polymorphic_impl_fwd.hpp" />
+    <ClInclude Include="..\Includes\Cereal\details\static_object.hpp" />
+    <ClInclude Include="..\Includes\Cereal\details\traits.hpp" />
+    <ClInclude Include="..\Includes\Cereal\details\util.hpp" />
+    <ClInclude Include="..\Includes\Cereal\external\base64.hpp" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\allocators.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\document.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\encodedstream.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\encodings.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\error\en.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\error\error.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\filereadstream.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\filewritestream.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\fwd.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\itoa.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\meta.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\pow10.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\regex.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\stack.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\strtod.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\swap.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\memorybuffer.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\memorystream.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\pointer.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\prettywriter.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\rapidjson.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\reader.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\schema.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\stream.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\stringbuffer.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\writer.h" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="..\Includes\Cereal\external\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="..\Includes\Cereal\macros.hpp" />
+    <ClInclude Include="..\Includes\Cereal\specialize.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\array.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\atomic.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\base_class.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\bitset.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\boost_variant.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\chrono.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\common.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\complex.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\concepts\pair_associative_container.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\deque.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\forward_list.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\functional.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\list.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\map.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\memory.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\optional.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\polymorphic.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\queue.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\set.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\stack.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\string.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\tuple.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\unordered_map.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\unordered_set.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\utility.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\valarray.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\variant.hpp" />
+    <ClInclude Include="..\Includes\Cereal\types\vector.hpp" />
+    <ClInclude Include="..\Includes\Cereal\version.hpp" />
+    <ClInclude Include="..\Includes\ComponentSystem\Component.h" />
+    <ClInclude Include="..\Includes\ComponentSystem\ComponentsManager.h" />
+    <ClInclude Include="..\Includes\ComponentSystem\GameObject.h" />
+    <ClInclude Include="..\Includes\ComponentSystem\UpdatableComponent.h" />
+    <ClInclude Include="..\Includes\Core\Engine.h" />
+    <ClInclude Include="..\Includes\Core\Render\Camera.h" />
+    <ClInclude Include="..\Includes\Core\Render\Material.h" />
+    <ClInclude Include="..\Includes\Core\Render\Mesh.h" />
+    <ClInclude Include="..\Includes\Core\Render\Model.h" />
+    <ClInclude Include="..\Includes\Core\Render\Renderer.h" />
+    <ClInclude Include="..\Includes\Core\Render\RHI.h" />
+    <ClInclude Include="..\Includes\Core\Render\Shader.h" />
+    <ClInclude Include="..\Includes\Core\Render\Texture.h" />
+    <ClInclude Include="..\Includes\Core\Render\WindowManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\ResourcesManager.h" />
+    <ClInclude Include="..\Includes\Core\Scene.h" />
+    <ClInclude Include="..\Includes\Core\SceneManager.h" />
+    <ClInclude Include="..\Includes\Core\SerializationManager.h" />
+    <ClInclude Include="..\Includes\Core\Time.h" />
+    <ClInclude Include="..\Includes\Debug\Assert.h" />
+    <ClInclude Include="..\Includes\Debug\EConsoleColor.h" />
+    <ClInclude Include="..\Includes\Debug\Log.h" />
+    <ClInclude Include="..\Includes\DLL.h" />
+    <ClInclude Include="..\Includes\Galatea.h" />
+    <ClInclude Include="..\Includes\Inputs\Axes.h" />
+    <ClInclude Include="..\Includes\Inputs\EAxisType.h" />
+    <ClInclude Include="..\Includes\Inputs\EDeviceType.h" />
+    <ClInclude Include="..\Includes\Inputs\EInputState.h" />
+    <ClInclude Include="..\Includes\Inputs\Event.h" />
+    <ClInclude Include="..\Includes\Inputs\GamepadAxes.h" />
+    <ClInclude Include="..\Includes\Inputs\GamepadButtons.h" />
+    <ClInclude Include="..\Includes\Inputs\GamepadID.h" />
+    <ClInclude Include="..\Includes\Inputs\GamepadState.h" />
+    <ClInclude Include="..\Includes\Inputs\Input.h" />
+    <ClInclude Include="..\Includes\Inputs\InputAction.h" />
+    <ClInclude Include="..\Includes\Inputs\InputAxis.h" />
+    <ClInclude Include="..\Includes\Inputs\InputManager.h" />
+    <ClInclude Include="..\Includes\Inputs\InputPattern.h" />
+    <ClInclude Include="..\Includes\Inputs\InputType.h" />
+    <ClInclude Include="..\Includes\Inputs\Keys.h" />
+    <ClInclude Include="..\Includes\Inputs\MouseButtons.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\aabb.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ai_assert.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\anim.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\BaseImporter.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Bitmap.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\BlobIOSystem.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ByteSwapper.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\camera.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\cexport.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\cfileio.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\cimport.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\color4.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Compiler\poppack1.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Compiler\pstdint.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Compiler\pushpack1.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\config.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\CreateAnimMesh.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\DefaultIOStream.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\DefaultIOSystem.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\DefaultLogger.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Defines.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\defs.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Exceptional.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Exporter.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\fast_atof.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\GenericProperty.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Hash.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Importer.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\importerdesc.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\IOStream.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\IOStreamBuffer.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\IOSystem.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\irrXMLWrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\light.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\LineSplitter.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\LogAux.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Logger.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\LogStream.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Macros.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\material.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\MathFunctions.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\matrix3x3.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\matrix4x4.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\MemoryIOWrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\mesh.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\metadata.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\NullLogger.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ParsingUtils.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\pbrmaterial.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\port\AndroidJNI\AndroidJNIIOSystem.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\postprocess.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Profiler.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ProgressHandler.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\qnan.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\quaternion.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\RemoveComments.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\scene.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SceneCombiner.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SGSpatialSort.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SkeletonMeshBuilder.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SmoothingGroups.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SpatialSort.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StandardShapes.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StreamReader.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StreamWriter.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StringComparison.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StringUtils.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Subdivision.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\texture.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\TinyFormatter.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\types.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\vector2.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\vector3.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\version.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Vertex.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\XMLTools.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ZipArchiveIOSystem.h" />
+    <ClInclude Include="..\Includes\Maths\Mat4.h" />
+    <ClInclude Include="..\Includes\Maths\MathsTools.h" />
+    <ClInclude Include="..\Includes\Maths\Quaternion.h" />
+    <ClInclude Include="..\Includes\Maths\Vec2.h" />
+    <ClInclude Include="..\Includes\Maths\Vec3.h" />
+    <ClInclude Include="..\Includes\Maths\Vec4.h" />
+    <ClInclude Include="..\Includes\Physic\Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Includes\Cereal\external\rapidxml\manual.html" />
+    <None Include="..\Includes\Debug\Log.inl" />
+    <None Include="..\Includes\Inputs\Event.inl" />
+    <None Include="..\Includes\Inputs\GamepadState.inl" />
+    <None Include="..\Includes\Inputs\Input.inl" />
+    <None Include="..\Includes\Inputs\InputAction.inl" />
+    <None Include="..\Includes\Inputs\InputAxis.inl" />
+    <None Include="..\Includes\Inputs\InputManager.inl" />
+    <None Include="..\Includes\Inputs\InputPattern.inl" />
+    <None Include="..\Includes\Inputs\InputType.inl" />
+    <None Include="..\Includes\Libraries\assimp\color4.inl" />
+    <None Include="..\Includes\Libraries\assimp\material.inl" />
+    <None Include="..\Includes\Libraries\assimp\matrix3x3.inl" />
+    <None Include="..\Includes\Libraries\assimp\matrix4x4.inl" />
+    <None Include="..\Includes\Libraries\assimp\quaternion.inl" />
+    <None Include="..\Includes\Libraries\assimp\SmoothingGroups.inl" />
+    <None Include="..\Includes\Libraries\assimp\vector2.inl" />
+    <None Include="..\Includes\Libraries\assimp\vector3.inl" />
+    <None Include="..\Includes\Maths\Mat4.inl" />
+    <None Include="..\Includes\Maths\Quaternion.inl" />
+    <None Include="..\Includes\Maths\Vec2.inl" />
+    <None Include="..\Includes\Maths\Vec3.inl" />
+    <None Include="..\Includes\Maths\Vec4.inl" />
+    <None Include="..\Includes\Physic\Transform.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

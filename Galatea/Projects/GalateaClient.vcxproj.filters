@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea">
+      <UniqueIdentifier>{6d4fe134-98cd-419c-beb4-92ddec4dd490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\ComponentSystem">
+      <UniqueIdentifier>{c0f8cfdf-cf3e-46bf-a97b-f58dd07d8121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\Core">
+      <UniqueIdentifier>{98aeb1c2-d500-417a-9056-1b5c6db08c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\Core\Render">
+      <UniqueIdentifier>{de5c1f68-7fc1-4d9a-8592-3fb01fbc557b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\Debug">
+      <UniqueIdentifier>{8ae925ad-d1c0-4579-bcff-94344c60ed82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\Inputs">
+      <UniqueIdentifier>{2d95c86f-0b2c-4b92-b387-8e97469981d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\Libraries">
+      <UniqueIdentifier>{26c9afc6-f50a-4bd4-baa9-066c149ea353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\Libraries\Assimp">
+      <UniqueIdentifier>{46fa2eb6-f370-48e3-b7a9-ee0b23b463b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\Libraries\Cereal">
+      <UniqueIdentifier>{5fc6f977-e0f1-4f72-9c7b-81f35cb5d25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\Maths">
+      <UniqueIdentifier>{dd01c6f2-2a13-4aee-af46-0b1dacb0970f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Galatea\Physic">
+      <UniqueIdentifier>{0cca0083-a2c2-4cfb-aefc-7c0c9136a9e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sources\Tests\GalateaClientMain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\ComponentSystem\Component.h">
+      <Filter>Fichiers d%27en-tête\Galatea\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ComponentSystem\GameObject.h">
+      <Filter>Fichiers d%27en-tête\Galatea\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ComponentSystem\UpdatableComponent.h">
+      <Filter>Fichiers d%27en-tête\Galatea\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Engine.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\ResourcesManager.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Scene.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\SceneManager.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\SerializationManager.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Time.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Render\Camera.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Render\Material.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Render\Mesh.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Render\Model.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Render\Renderer.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Render\RHI.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Render\Shader.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Render\Texture.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Core\Render\WindowManager.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Debug\Assert.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Debug\EConsoleColor.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Debug\Log.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\Axes.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\EAxisType.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\EDeviceType.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\EInputState.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\Event.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\GamepadAxes.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\GamepadButtons.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\GamepadID.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\GamepadState.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\Input.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\InputAction.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\InputAxis.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\InputManager.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\InputPattern.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\InputType.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\Keys.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Inputs\MouseButtons.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\aabb.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\ai_assert.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\anim.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\BaseImporter.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Bitmap.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\BlobIOSystem.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\ByteSwapper.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\camera.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\cexport.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\cfileio.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\cimport.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\color4.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Compiler\poppack1.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Compiler\pstdint.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Compiler\pushpack1.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\config.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\CreateAnimMesh.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\DefaultIOStream.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\DefaultIOSystem.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\DefaultLogger.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Defines.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\defs.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Exceptional.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Exporter.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\fast_atof.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\GenericProperty.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Hash.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Importer.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\importerdesc.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\IOStream.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\IOStreamBuffer.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\IOSystem.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\irrXMLWrapper.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\light.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\LineSplitter.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\LogAux.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Logger.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\LogStream.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Macros.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\material.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\MathFunctions.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\matrix3x3.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\matrix4x4.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\MemoryIOWrapper.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\mesh.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\metadata.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\NullLogger.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\ParsingUtils.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\pbrmaterial.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\port\AndroidJNI\AndroidJNIIOSystem.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\postprocess.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Profiler.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\ProgressHandler.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\qnan.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\quaternion.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\RemoveComments.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\scene.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\SceneCombiner.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\SGSpatialSort.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\SkeletonMeshBuilder.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\SmoothingGroups.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\SpatialSort.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\StandardShapes.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\StreamReader.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\StreamWriter.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\StringComparison.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\StringUtils.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Subdivision.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\texture.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\TinyFormatter.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\types.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\vector2.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\vector3.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\version.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\Vertex.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\XMLTools.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Libraries\assimp\ZipArchiveIOSystem.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\access.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\archives\adapters.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\archives\binary.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\archives\json.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\archives\portable_binary.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\archives\xml.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\cereal.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\details\helpers.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\details\polymorphic_impl.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\details\polymorphic_impl_fwd.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\details\static_object.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\details\traits.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\details\util.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\base64.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\allocators.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\cursorstreamwrapper.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\document.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\encodedstream.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\encodings.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\error\en.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\error\error.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\filereadstream.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\filewritestream.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\fwd.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\biginteger.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\diyfp.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\dtoa.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\ieee754.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\itoa.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\meta.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\pow10.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\regex.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\stack.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\strfunc.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\strtod.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\internal\swap.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\istreamwrapper.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\memorybuffer.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\memorystream.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\msinttypes\inttypes.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\msinttypes\stdint.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\ostreamwrapper.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\pointer.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\prettywriter.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\rapidjson.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\reader.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\schema.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\stream.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\stringbuffer.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidjson\writer.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidxml\rapidxml.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidxml\rapidxml_iterators.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidxml\rapidxml_print.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\external\rapidxml\rapidxml_utils.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\macros.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\specialize.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\array.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\atomic.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\base_class.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\bitset.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\boost_variant.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\chrono.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\common.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\complex.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\concepts\pair_associative_container.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\deque.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\forward_list.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\functional.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\list.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\map.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\memory.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\optional.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\polymorphic.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\queue.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\set.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\stack.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\string.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\tuple.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\unordered_map.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\unordered_set.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\utility.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\valarray.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\variant.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\types\vector.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Cereal\version.hpp">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Maths\Mat4.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Maths\MathsTools.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Maths\Quaternion.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Maths\Vec2.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Maths\Vec3.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Maths\Vec4.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Physic\Transform.h">
+      <Filter>Fichiers d%27en-tête\Galatea\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\DLL.h">
+      <Filter>Fichiers d%27en-tête\Galatea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Galatea.h">
+      <Filter>Fichiers d%27en-tête\Galatea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ComponentSystem\ComponentsManager.h">
+      <Filter>Fichiers d%27en-tête\Galatea\ComponentSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Includes\Debug\Log.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Debug</Filter>
+    </None>
+    <None Include="..\Includes\Inputs\GamepadState.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </None>
+    <None Include="..\Includes\Inputs\Input.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </None>
+    <None Include="..\Includes\Inputs\InputAction.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </None>
+    <None Include="..\Includes\Inputs\InputAxis.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </None>
+    <None Include="..\Includes\Inputs\InputManager.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </None>
+    <None Include="..\Includes\Inputs\InputPattern.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </None>
+    <None Include="..\Includes\Inputs\InputType.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </None>
+    <None Include="..\Includes\Inputs\Event.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Inputs</Filter>
+    </None>
+    <None Include="..\Includes\Libraries\assimp\color4.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </None>
+    <None Include="..\Includes\Libraries\assimp\material.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </None>
+    <None Include="..\Includes\Libraries\assimp\matrix3x3.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </None>
+    <None Include="..\Includes\Libraries\assimp\matrix4x4.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </None>
+    <None Include="..\Includes\Libraries\assimp\quaternion.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </None>
+    <None Include="..\Includes\Libraries\assimp\SmoothingGroups.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </None>
+    <None Include="..\Includes\Libraries\assimp\vector2.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </None>
+    <None Include="..\Includes\Libraries\assimp\vector3.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Assimp</Filter>
+    </None>
+    <None Include="..\Includes\Cereal\external\rapidxml\manual.html">
+      <Filter>Fichiers d%27en-tête\Galatea\Libraries\Cereal</Filter>
+    </None>
+    <None Include="..\Includes\Maths\Mat4.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </None>
+    <None Include="..\Includes\Maths\Quaternion.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </None>
+    <None Include="..\Includes\Maths\Vec2.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </None>
+    <None Include="..\Includes\Maths\Vec3.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </None>
+    <None Include="..\Includes\Maths\Vec4.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Maths</Filter>
+    </None>
+    <None Include="..\Includes\Physic\Transform.inl">
+      <Filter>Fichiers d%27en-tête\Galatea\Physic</Filter>
+    </None>
+  </ItemGroup>
+</Project>

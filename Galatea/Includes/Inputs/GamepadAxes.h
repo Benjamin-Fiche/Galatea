@@ -1,0 +1,8 @@
+#pragma once
+
+#define G_GAMEPAD_AXIS_LEFT_X			0
+#define G_GAMEPAD_AXIS_LEFT_Y			1
+#define G_GAMEPAD_AXIS_RIGHT_X			2
+#define G_GAMEPAD_AXIS_RIGHT_Y			3
+#define G_GAMEPAD_AXIS_LEFT_TRIGGER		4
+#define G_GAMEPAD_AXIS_RIGHT_TRIGGER	5

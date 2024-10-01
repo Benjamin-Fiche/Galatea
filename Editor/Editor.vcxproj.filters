@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Editor">
+      <UniqueIdentifier>{bd269db9-45d8-47bb-bd65-298a603cff26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Editor">
+      <UniqueIdentifier>{f350c4fd-68b3-44ec-bce3-d4682d996319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ImGUI">
+      <UniqueIdentifier>{db667dff-f325-465f-91c3-588c27849f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ImGUI">
+      <UniqueIdentifier>{067a029c-d68c-4e16-942a-6781e4141fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Editor\Windows">
+      <UniqueIdentifier>{94d48418-78b1-4cc1-8fa8-175fabaa9f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Editor\Windows">
+      <UniqueIdentifier>{6c775b6d-905d-4a3a-bf8c-e593b59bf836}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\EditorWindow.cpp">
+      <Filter>Fichiers sources\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\Windows\SceneWindow.cpp">
+      <Filter>Fichiers sources\Editor\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\Windows\InspectorWindow.cpp">
+      <Filter>Fichiers sources\Editor\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\Windows\HierarchyWindow.cpp">
+      <Filter>Fichiers sources\Editor\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\Windows\GameWindow.cpp">
+      <Filter>Fichiers sources\Editor\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\Windows\ConsoleWindow.cpp">
+      <Filter>Fichiers sources\Editor\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\Windows\ProjectWindow.cpp">
+      <Filter>Fichiers sources\Editor\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ImGUI\imgui.cpp">
+      <Filter>Fichiers sources\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ImGUI\imgui_demo.cpp">
+      <Filter>Fichiers sources\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ImGUI\imgui_draw.cpp">
+      <Filter>Fichiers sources\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ImGUI\imgui_impl_glfw.cpp">
+      <Filter>Fichiers sources\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ImGUI\imgui_impl_opengl3.cpp">
+      <Filter>Fichiers sources\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ImGUI\imgui_widgets.cpp">
+      <Filter>Fichiers sources\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ImGUI\main.cpp">
+      <Filter>Fichiers sources\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\OnInspectorUI.cpp">
+      <Filter>Fichiers sources\Editor\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\Editor.cpp">
+      <Filter>Fichiers sources\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\rttr\policy.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\Editor\EditorWindow.h">
+      <Filter>Fichiers d%27en-tête\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\Windows\ConsoleWindow.h">
+      <Filter>Fichiers d%27en-tête\Editor\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\Windows\HierarchyWindow.h">
+      <Filter>Fichiers d%27en-tête\Editor\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\Windows\InspectorWindow.h">
+      <Filter>Fichiers d%27en-tête\Editor\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\Windows\ProjectWindow.h">
+      <Filter>Fichiers d%27en-tête\Editor\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\Windows\SceneWindow.h">
+      <Filter>Fichiers d%27en-tête\Editor\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\Editor.h">
+      <Filter>Fichiers d%27en-tête\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\Windows\GameWindow.h">
+      <Filter>Fichiers d%27en-tête\Editor\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGUI\imconfig.h">
+      <Filter>Fichiers d%27en-tête\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGUI\imgui.h">
+      <Filter>Fichiers d%27en-tête\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGUI\imgui_impl_glfw.h">
+      <Filter>Fichiers d%27en-tête\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGUI\imgui_impl_opengl3.h">
+      <Filter>Fichiers d%27en-tête\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGUI\imgui_internal.h">
+      <Filter>Fichiers d%27en-tête\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGUI\imstb_rectpack.h">
+      <Filter>Fichiers d%27en-tête\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGUI\imstb_textedit.h">
+      <Filter>Fichiers d%27en-tête\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGUI\imstb_truetype.h">
+      <Filter>Fichiers d%27en-tête\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\OnInspectorUI.h">
+      <Filter>Fichiers d%27en-tête\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\Reflection\Reflector.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGUI\imfilebrowser.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Editor\UserFileAdder.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Includes\ImGUI\imfilebrowser.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+  </ItemGroup>
+</Project>

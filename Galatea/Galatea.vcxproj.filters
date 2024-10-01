@@ -1,0 +1,1765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Debug">
+      <UniqueIdentifier>{32045c0c-dfe8-4280-9235-d91d36aebc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Debug">
+      <UniqueIdentifier>{51001395-c841-42f6-b144-7671f8922d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Maths">
+      <UniqueIdentifier>{4c05f406-9b4f-422f-a94a-aa54bffef4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Maths">
+      <UniqueIdentifier>{d3af5677-9047-412e-aa7c-01d5f1e4a646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ComponentSystem">
+      <UniqueIdentifier>{a2cdef7e-0d4e-486c-953c-bd3deed4229e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{2b94c345-2e31-4514-839e-65a52dec1fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{386f1022-e2bc-4065-9644-9132e1231fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ComponentSystem">
+      <UniqueIdentifier>{1e32c7c5-d47d-4f1e-a6a4-5db9fc627f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core\Render">
+      <UniqueIdentifier>{7d3b31e7-49d5-4747-b817-4a0285b9daeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Render">
+      <UniqueIdentifier>{69728ee8-8385-4dd0-9ea7-279649a14c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Shader">
+      <UniqueIdentifier>{bcb6ea42-563b-419b-a635-c70db3e80248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Physic">
+      <UniqueIdentifier>{4151fd34-d4e7-4b33-b70b-752322784d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Physic">
+      <UniqueIdentifier>{7c85f306-4aca-4a33-b32d-afb92ef5b76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries">
+      <UniqueIdentifier>{ac77ab78-4266-4108-917a-9dfe20f11c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Assimp">
+      <UniqueIdentifier>{06e9e31c-4889-4bcf-8750-872b2c11ed27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal">
+      <UniqueIdentifier>{9af052fc-dc36-426b-b3d6-65af425ab259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Inputs">
+      <UniqueIdentifier>{2ccb5077-0c4a-452c-a7f4-7992bf57211b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Inputs">
+      <UniqueIdentifier>{abc3e819-8219-4a95-aa4b-cb7c0012255d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr">
+      <UniqueIdentifier>{35cbfe8c-630a-4c4e-ab91-5da87d707efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\archives">
+      <UniqueIdentifier>{8cc230eb-e345-449f-926c-60e471a486fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\details">
+      <UniqueIdentifier>{b73893fb-479e-4b7d-9458-18fb2d780545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\external">
+      <UniqueIdentifier>{6d871ea3-979b-4bbf-85f1-896beacd6377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\types">
+      <UniqueIdentifier>{ff360b7f-029b-4c25-bb78-52b5fb04f6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson">
+      <UniqueIdentifier>{b1346309-2db0-407c-9194-d1e20715c5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\external\rapidxml">
+      <UniqueIdentifier>{8cd67f10-61b8-49e2-a7ed-d40dffa9629b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\error">
+      <UniqueIdentifier>{e8cafe20-44af-4d18-a77b-c47fd6eca529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal">
+      <UniqueIdentifier>{61ca1169-fc8a-403e-9e10-12c3478ad486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\msinttypes">
+      <UniqueIdentifier>{d7d491c3-20a7-4ed1-8a70-d9f72609c9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Assimp\Compiler">
+      <UniqueIdentifier>{daa5c306-daa9-4228-87e6-8b02476c0182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Assimp\port">
+      <UniqueIdentifier>{8a697dd5-bbab-489c-8278-437d0ba1b764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Assimp\port\AndroidJNI">
+      <UniqueIdentifier>{d49ff7bb-b1bc-430e-a81e-d454a06c739d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\Cereal\types\concepts">
+      <UniqueIdentifier>{0e08dc2b-b38e-4a25-9bf4-6c2bcc755aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\GL">
+      <UniqueIdentifier>{feff0df4-3e7d-4443-a4ba-2bc68a77d698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\GLFW">
+      <UniqueIdentifier>{1734e708-028b-458f-84d8-0cc39e2c24dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail">
+      <UniqueIdentifier>{3e7156ab-4d60-4458-a4a1-3c2b47f79622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\base">
+      <UniqueIdentifier>{c1f16e6b-e15d-4eb1-970e-352fd290ef8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\comparison">
+      <UniqueIdentifier>{05422837-643e-4e2b-ba8d-fe0a0dec1a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\constructor">
+      <UniqueIdentifier>{7505703a-0a63-4dea-974c-4e225ebaa940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\conversion">
+      <UniqueIdentifier>{5d328916-cf93-4c49-aa05-4195eef8d2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\default_arguments">
+      <UniqueIdentifier>{3eda301e-2259-41f9-b474-6cd1a2c38a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\destructor">
+      <UniqueIdentifier>{3ae37640-9fa9-4b4f-a13d-bee1d9c86d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\enumeration">
+      <UniqueIdentifier>{fb4156a5-e17a-46b3-92b9-10d338bdee47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\filter">
+      <UniqueIdentifier>{c4fda209-ae99-4838-b36f-a92f992193cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\impl">
+      <UniqueIdentifier>{1e69702c-c375-4b22-b63a-43d35a1ea3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\metadata">
+      <UniqueIdentifier>{b02cd73a-24f0-4856-bb9b-1fd82dbbc6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\method">
+      <UniqueIdentifier>{979e2e29-2fad-4950-b1df-f6a1387d3b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\misc">
+      <UniqueIdentifier>{d3f4ebf0-d729-4458-9258-a7ab80f3c625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\variant">
+      <UniqueIdentifier>{f06a4a51-ca0d-4b0c-888c-fcb12b509583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\parameter_info">
+      <UniqueIdentifier>{8807ddac-cb48-498c-8b9c-aa777f559f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\type">
+      <UniqueIdentifier>{4c637e80-4f5e-43bb-ad43-6e9ecd06f972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\registration">
+      <UniqueIdentifier>{ed1a2956-ed6b-40dc-a3d4-d272394c5c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\property">
+      <UniqueIdentifier>{562a0b11-d9ff-4210-ac78-0e7935179f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\policies">
+      <UniqueIdentifier>{9e8f305e-c6c9-4e30-8db3-72d1d1b9e782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\variant_associative_view">
+      <UniqueIdentifier>{58298107-b38d-4b5d-a9d1-0670bc42623a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\variant_sequential_view">
+      <UniqueIdentifier>{b62c2730-fcf1-47a2-8866-45c36fe4fc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\rttr\detail\visitor">
+      <UniqueIdentifier>{1d938e45-d53e-4548-b8e0-38f0f39f2f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Libraries\ImGui">
+      <UniqueIdentifier>{026d386f-fb5c-4763-a6a4-9d9b560f52c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Libraries">
+      <UniqueIdentifier>{46e15f7b-f7c2-4dcb-83d2-69a681f7d3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Libraries\ImGui">
+      <UniqueIdentifier>{45d146e6-7ce9-458f-a719-d20c38d68ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Camera">
+      <UniqueIdentifier>{c53c763c-0fbf-41a8-9a97-18af325c95e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core\Camera">
+      <UniqueIdentifier>{a5feef0e-72ce-4014-b19d-70db797aff7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Sound">
+      <UniqueIdentifier>{aaa31c99-c10b-4996-a705-d73cffe6561d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Sound">
+      <UniqueIdentifier>{ad6bbc09-d915-46d3-90f3-c6ff2d39ed96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{7e9d08c6-a87e-49dd-ab64-9df5c1853e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{d7d379ce-7304-4c92-8dca-833926b59763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Render\PostProcess">
+      <UniqueIdentifier>{8ca48faf-7afc-49bd-85d2-3754d1c912aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core\Render\PostProcess">
+      <UniqueIdentifier>{c06eca31-d319-47cf-ac4e-70a08a97f218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Render\PostProcess\PostProcessEffect">
+      <UniqueIdentifier>{a1d89b11-4936-4d62-88f8-d91a16387f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core\Render\PostProcess\PostProcessEffect">
+      <UniqueIdentifier>{e5e2d903-e9a3-446c-8ebb-e7e884fcecdf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Vec3.cpp">
+      <Filter>Fichiers sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Vec2.cpp">
+      <Filter>Fichiers sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Debug\Assert.cpp">
+      <Filter>Fichiers sources\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Debug\Log.cpp">
+      <Filter>Fichiers sources\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Engine.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Scene.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\SceneManager.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ComponentSystem\GameObject.cpp">
+      <Filter>Fichiers sources\ComponentSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ComponentSystem\Component.cpp">
+      <Filter>Fichiers sources\ComponentSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Shader.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\WindowManager.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\RHI.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Mesh.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Renderer.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Physic\Transform.cpp">
+      <Filter>Fichiers sources\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Time.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\ResourcesManager.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Model.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Material.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Texture.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Inputs\GamepadState.cpp">
+      <Filter>Fichiers sources\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Inputs\Input.cpp">
+      <Filter>Fichiers sources\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Inputs\InputAction.cpp">
+      <Filter>Fichiers sources\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Inputs\InputAxis.cpp">
+      <Filter>Fichiers sources\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Inputs\InputManager.cpp">
+      <Filter>Fichiers sources\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Inputs\InputPattern.cpp">
+      <Filter>Fichiers sources\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Inputs\InputType.cpp">
+      <Filter>Fichiers sources\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Quaternion.cpp">
+      <Filter>Fichiers sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ComponentSystem\ComponentsManager.cpp">
+      <Filter>Fichiers sources\ComponentSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Light.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Framebuffer.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\SerializationManager.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Physic\Physics.cpp">
+      <Filter>Fichiers sources\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Physic\RigidBody.cpp">
+      <Filter>Fichiers sources\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Libraries\ImGui\imgui.cpp">
+      <Filter>Fichiers sources\Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Libraries\ImGui\imgui_demo.cpp">
+      <Filter>Fichiers sources\Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Libraries\ImGui\imgui_draw.cpp">
+      <Filter>Fichiers sources\Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Libraries\ImGui\imgui_impl_glfw.cpp">
+      <Filter>Fichiers sources\Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Libraries\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Fichiers sources\Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Libraries\ImGui\imgui_widgets.cpp">
+      <Filter>Fichiers sources\Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Camera\Camera.cpp">
+      <Filter>Fichiers sources\Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Camera\CameraInEditor.cpp">
+      <Filter>Fichiers sources\Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Skybox.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\ShaderManager.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\UniformBuffer.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Font.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Camera\CameraFreeFlyMovement.cpp">
+      <Filter>Fichiers sources\Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Sound\FmodTools.cpp">
+      <Filter>Fichiers sources\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Sound\Sound.cpp">
+      <Filter>Fichiers sources\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Sound\SoundChannelGroup.cpp">
+      <Filter>Fichiers sources\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Sound\SoundManager.cpp">
+      <Filter>Fichiers sources\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game\CameraFPSRotation.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game\Player.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game\Gun.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Sound\AudioListener.cpp">
+      <Filter>Fichiers sources\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Physic\SimulationEventCallback.cpp">
+      <Filter>Fichiers sources\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game\InteractableObject.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Quad2D.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Text2D.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game\Door.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\PostProcess\PostProcessPass.cpp">
+      <Filter>Fichiers sources\Core\Render\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\PostProcess\PostProcessManager.cpp">
+      <Filter>Fichiers sources\Core\Render\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\PostProcess\PostProcessEffect\PostProcessEffect.cpp">
+      <Filter>Fichiers sources\Core\Render\PostProcess\PostProcessEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Render\Mesh2D.cpp">
+      <Filter>Fichiers sources\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game\GameManager.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game\WinTrigger.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Game\MenuManager.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\Debug\Assert.h">
+      <Filter>Fichiers d%27en-tête\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Debug\EConsoleColor.h">
+      <Filter>Fichiers d%27en-tête\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Debug\Log.h">
+      <Filter>Fichiers d%27en-tête\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Mat4.h">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\MathsTools.h">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Quaternion.h">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vec2.h">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vec3.h">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vec4.h">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Engine.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Scene.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\SceneManager.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ComponentSystem\Component.h">
+      <Filter>Fichiers d%27en-tête\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ComponentSystem\GameObject.h">
+      <Filter>Fichiers d%27en-tête\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ComponentSystem\UpdatableComponent.h">
+      <Filter>Fichiers d%27en-tête\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Shader.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\WindowManager.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\RHI.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Mesh.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Renderer.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physic\Transform.h">
+      <Filter>Fichiers d%27en-tête\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Time.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\ResourcesManager.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Model.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Material.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Texture.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\Axes.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\EAxisType.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\EDeviceType.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\EInputState.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\Event.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\GamepadAxes.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\GamepadButtons.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\GamepadID.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\GamepadState.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\Input.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\InputAction.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\InputAxis.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\InputManager.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\InputPattern.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\InputType.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\Keys.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Inputs\MouseButtons.h">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\EModelCharacteristics.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\DLL.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Galatea.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Compiler\poppack1.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Compiler\pstdint.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Compiler\pushpack1.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\port\AndroidJNI\AndroidJNIIOSystem.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp\port\AndroidJNI</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\aabb.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\ai_assert.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\anim.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\BaseImporter.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Bitmap.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\BlobIOSystem.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\ByteSwapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\camera.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\cexport.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\cfileio.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\cimport.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\color4.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\config.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\CreateAnimMesh.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\DefaultIOStream.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\DefaultIOSystem.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\DefaultLogger.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Defines.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\defs.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Exceptional.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Exporter.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\fast_atof.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\GenericProperty.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Hash.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Importer.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\importerdesc.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\IOStream.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\IOStreamBuffer.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\IOSystem.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\irrXMLWrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\light.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\LineSplitter.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\LogAux.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Logger.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\LogStream.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Macros.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\material.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\MathFunctions.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\matrix3x3.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\matrix4x4.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\MemoryIOWrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\mesh.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\metadata.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\NullLogger.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\ParsingUtils.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\pbrmaterial.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\postprocess.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Profiler.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\ProgressHandler.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\qnan.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\quaternion.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\RemoveComments.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\scene.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\SceneCombiner.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\SGSpatialSort.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\SkeletonMeshBuilder.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\SmoothingGroups.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\SpatialSort.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\StandardShapes.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\StreamReader.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\StreamWriter.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\StringComparison.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\StringUtils.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Subdivision.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\texture.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\TinyFormatter.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\types.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\vector2.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\vector3.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\version.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\Vertex.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\XMLTools.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\assimp\ZipArchiveIOSystem.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\archives\adapters.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\archives\binary.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\archives\json.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\archives\portable_binary.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\archives\xml.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\details\helpers.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\details\polymorphic_impl.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\details\polymorphic_impl_fwd.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\details\static_object.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\details\traits.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\details\util.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\base64.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidxml\rapidxml.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidxml\rapidxml_iterators.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidxml\rapidxml_print.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidxml\rapidxml_utils.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\allocators.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\cursorstreamwrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\document.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\encodedstream.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\encodings.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\filereadstream.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\filewritestream.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\fwd.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\istreamwrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\memorybuffer.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\memorystream.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\ostreamwrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\pointer.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\prettywriter.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\rapidjson.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\reader.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\schema.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\stream.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\stringbuffer.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\writer.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\error\en.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\error\error.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\biginteger.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\diyfp.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\dtoa.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\ieee754.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\itoa.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\meta.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\pow10.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\regex.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\stack.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\strfunc.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\strtod.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\internal\swap.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\msinttypes\inttypes.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\external\rapidjson\msinttypes\stdint.h">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\array.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\atomic.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\base_class.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\bitset.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\boost_variant.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\chrono.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\common.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\complex.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\deque.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\forward_list.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\functional.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\list.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\map.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\memory.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\optional.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\polymorphic.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\queue.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\set.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\stack.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\string.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\tuple.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\unordered_map.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\unordered_set.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\utility.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\valarray.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\variant.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\vector.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\types\concepts\pair_associative_container.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\types\concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\access.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\cereal.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\macros.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\specialize.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\Cereal\version.hpp">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\GL\eglew.h">
+      <Filter>Fichiers d%27en-tête\Libraries\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\GL\glew.h">
+      <Filter>Fichiers d%27en-tête\Libraries\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\GL\glxew.h">
+      <Filter>Fichiers d%27en-tête\Libraries\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\GL\wglew.h">
+      <Filter>Fichiers d%27en-tête\Libraries\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\GLFW\glfw3.h">
+      <Filter>Fichiers d%27en-tête\Libraries\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\GLFW\glfw3native.h">
+      <Filter>Fichiers d%27en-tête\Libraries\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\base\core_prerequisites.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\base\version.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\comparison\comparable_types.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\comparison\compare_array_equal.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\comparison\compare_array_equal_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\comparison\compare_array_less.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\comparison\compare_array_less_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\comparison\compare_equal.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\comparison\compare_equal_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\comparison\compare_less.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\comparison\compare_less_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\comparison</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\constructor\constructor_invoker.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\constructor\constructor_wrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\constructor\constructor_wrapper_base.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\constructor\constructor_wrapper_defaults.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\conversion\number_conversion.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\conversion\std_conversion_functions.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\default_arguments\default_arguments.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\default_arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\default_arguments\invoke_with_defaults.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\default_arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\destructor\destructor_wrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\destructor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\destructor\destructor_wrapper_base.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\destructor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\enumeration\enum_data.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\enumeration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\enumeration\enumeration_helper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\enumeration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\enumeration\enumeration_wrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\enumeration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\enumeration\enumeration_wrapper_base.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\enumeration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\filter\filter_item_funcs.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\impl\argument_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\impl\array_range_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\impl\associative_mapper_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\impl\enum_flags_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\impl\instance_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\impl\rttr_cast_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\impl\sequential_mapper_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\impl\string_view_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\impl\wrapper_mapper_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\metadata\metadata.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\metadata\metadata_handler.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\method\method_accessor.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\method</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\method\method_invoker.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\method</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\method\method_wrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\method</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\method\method_wrapper_base.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\method</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\argument_extractor.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\argument_wrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\class_item_mapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\data_address_container.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\flat_map.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\flat_multimap.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\function_traits.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\iterator_wrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\misc_type_traits.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\register_wrapper_mapper_conversion.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\sequential_container_type_traits.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\std_type_traits.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\template_type_trait.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\template_type_trait_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\misc\utility.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\parameter_info\parameter_info_wrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\parameter_info</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\parameter_info\parameter_info_wrapper_base.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\parameter_info</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\parameter_info\parameter_infos.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\parameter_info</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\parameter_info\parameter_infos_compare.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\parameter_info</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\parameter_info\parameter_names.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\parameter_info</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\policies\ctor_policies.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\policies\meth_policies.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\policies\prop_policies.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\policies</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\property\property_accessor.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\property</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\property\property_wrapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\property</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\property\property_wrapper_base.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\property</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\property\property_wrapper_func.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\property</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\property\property_wrapper_member_func.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\property</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\property\property_wrapper_member_object.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\property</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\property\property_wrapper_object.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\property</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\registration\bind_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\registration\bind_types.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\registration\register_base_class_from_accessor.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\registration\registration_executer.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\registration\registration_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\registration\registration_manager.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\registration\registration_state_saver.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\accessor_type.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\base_classes.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\get_create_variant_func.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\get_derived_info_func.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\type_comparator.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\type_converter.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\type_data.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\type_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\type_name.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\type_register.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\type\type_string_utils.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant\variant_compare.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant\variant_data.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant\variant_data_converter.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant\variant_data_policy.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant\variant_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant_associative_view\variant_associative_view_creator.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant_associative_view</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant_associative_view\variant_associative_view_creator_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant_associative_view</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant_associative_view\variant_associative_view_private.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant_associative_view</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant_sequential_view\variant_sequential_view_creator.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant_sequential_view</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant_sequential_view\variant_sequential_view_creator_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant_sequential_view</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\variant_sequential_view\variant_sequential_view_private.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\variant_sequential_view</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\visitor\constructor_visitor_invoker.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\visitor\create_type_visitor_func.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\visitor\create_type_visitor_func_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\visitor\method_visitor_invoker.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\visitor\property_visitor_invoker.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\visitor\type_visitor_invoker.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\visitor\visitor_impl.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\visitor\visitor_iterator.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\detail\visitor\visitor_registration.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr\detail\visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\access_levels.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\argument.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\array_range.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\associative_mapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\constructor.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\destructor.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\enum_flags.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\enumeration.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\filter_item.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\instance.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\library.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\method.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\parameter_info.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\policy.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\property.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\registration.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\registration_friend.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\rttr_cast.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\rttr_enable.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\sequential_mapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\string_view.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\type.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\type_list.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\variant.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\variant_associative_view.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\variant_sequential_view.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\visitor.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\rttr\wrapper_mapper.h">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\stb_image.h">
+      <Filter>Fichiers d%27en-tête\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ComponentSystem\ComponentsManager.h">
+      <Filter>Fichiers d%27en-tête\ComponentSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Light.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Framebuffer.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\SerializationManager.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\ReflectionRegistration.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physic\Physics.h">
+      <Filter>Fichiers d%27en-tête\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physic\RigidBody.h">
+      <Filter>Fichiers d%27en-tête\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\ImGui\imstb_truetype.h">
+      <Filter>Fichiers d%27en-tête\Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\ImGui\imconfig.h">
+      <Filter>Fichiers d%27en-tête\Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\ImGui\imgui.h">
+      <Filter>Fichiers d%27en-tête\Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\ImGui\imgui_impl_glfw.h">
+      <Filter>Fichiers d%27en-tête\Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\ImGui\imgui_impl_opengl3.h">
+      <Filter>Fichiers d%27en-tête\Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\ImGui\imgui_internal.h">
+      <Filter>Fichiers d%27en-tête\Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\ImGui\imstb_rectpack.h">
+      <Filter>Fichiers d%27en-tête\Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Libraries\ImGui\imstb_textedit.h">
+      <Filter>Fichiers d%27en-tête\Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Camera\Camera.h">
+      <Filter>Fichiers d%27en-tête\Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Camera\CameraInEditor.h">
+      <Filter>Fichiers d%27en-tête\Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Skybox.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\UniformBuffer.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\ShaderManager.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Font.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Mesh2D.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Sound\FmodTools.h">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Sound\Sound.h">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Sound\SoundChannelGroup.h">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Sound\SoundManager.h">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Sound\SoundMode.h">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Sound\SoundTimeUnit.h">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Camera\CameraFreeFlyMovement.h">
+      <Filter>Fichiers d%27en-tête\Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Game\CameraFPSRotation.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Game\Player.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Game\Gun.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Sound\AudioListener.h">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physic\SimulationEventCallback.h">
+      <Filter>Fichiers d%27en-tête\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Game\InteractableObject.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Quad2D.h">
+      <Filter>Fichiers d%27en-tête\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\PostProcess\EPostProcess.h">
+      <Filter>Fichiers d%27en-tête\Core\Render\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\PostProcess\PostProcessManager.h">
+      <Filter>Fichiers d%27en-tête\Core\Render\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\PostProcess\PostProcessPass.h">
+      <Filter>Fichiers d%27en-tête\Core\Render\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\PostProcess\PostProcessEffect\PostProcessEffect.h">
+      <Filter>Fichiers d%27en-tête\Core\Render\PostProcess\PostProcessEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Render\Text2D.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Game\Door.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Game\GameManager.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Game\WinTrigger.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Game\MenuManager.h">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Game\GameMap.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Includes\Debug\Log.inl">
+      <Filter>Fichiers d%27en-tête\Debug</Filter>
+    </None>
+    <None Include="Includes\Maths\Mat4.inl">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Quaternion.inl">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Vec2.inl">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Vec3.inl">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Vec4.inl">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </None>
+    <None Include="Includes\Physic\Transform.inl">
+      <Filter>Fichiers d%27en-tête\Physic</Filter>
+    </None>
+    <None Include="Includes\Inputs\GamepadState.inl">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </None>
+    <None Include="Includes\Inputs\Input.inl">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </None>
+    <None Include="Includes\Inputs\InputAction.inl">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </None>
+    <None Include="Includes\Inputs\InputAxis.inl">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </None>
+    <None Include="Includes\Inputs\InputManager.inl">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </None>
+    <None Include="Includes\Inputs\InputPattern.inl">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </None>
+    <None Include="Includes\Inputs\InputType.inl">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\.editorconfig">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\color4.inl">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\config.h.in">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\material.inl">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\matrix3x3.inl">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\matrix4x4.inl">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\quaternion.inl">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\SmoothingGroups.inl">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\vector2.inl">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\assimp\vector3.inl">
+      <Filter>Fichiers d%27en-tête\Libraries\Assimp</Filter>
+    </None>
+    <None Include="Includes\Libraries\Cereal\external\rapidxml\manual.html">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidxml</Filter>
+    </None>
+    <None Include="Includes\Libraries\rttr\registration">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </None>
+    <None Include="Includes\Libraries\rttr\registration_friend">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </None>
+    <None Include="Includes\Libraries\rttr\type">
+      <Filter>Fichiers d%27en-tête\Libraries\rttr</Filter>
+    </None>
+    <None Include="Includes\Inputs\Event.inl">
+      <Filter>Fichiers d%27en-tête\Inputs</Filter>
+    </None>
+    <None Include="Resources\Shaders\DefaultFragmentShader.frag">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\FramebufferFragmentShader.frag">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\SkyboxFragmentShader.frag">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\DefaultVertexShader.vert">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\FramebufferVertexShader.vert">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\SkyboxVertexShader.vert">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\2DFragmentShader.frag">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\2DVertexShader.vert">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\ShadowFragmentShader.frag">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\ShadowVertexShader.vert">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Includes\Sound\SoundChannelGroup.inl">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </None>
+    <None Include="Includes\Sound\SoundManager.inl">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </None>
+    <None Include="Resources\Shaders\FontFragmentShader.frag">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\FontVertexShader.vert">
+      <Filter>Fichiers de ressources\Shader</Filter>
+    </None>
+    <None Include="Includes\Sound\Sound.inl">
+      <Filter>Fichiers d%27en-tête\Sound</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Includes\Libraries\Cereal\external\rapidxml\license.txt">
+      <Filter>Fichiers d%27en-tête\Libraries\Cereal\external\rapidxml</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

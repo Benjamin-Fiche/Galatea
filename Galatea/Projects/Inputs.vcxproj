@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugExe|Win32">
+      <Configuration>DebugExe</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugExe|x64">
+      <Configuration>DebugExe</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sources\ComponentSystem\Component.cpp" />
+    <ClCompile Include="..\Sources\ComponentSystem\ComponentsManager.cpp" />
+    <ClCompile Include="..\Sources\ComponentSystem\GameObject.cpp" />
+    <ClCompile Include="..\Sources\Core\Engine.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Camera.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Framebuffer.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Light.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Material.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Mesh.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Model.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Renderer.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\RHI.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Shader.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\Texture.cpp" />
+    <ClCompile Include="..\Sources\Core\Render\WindowManager.cpp" />
+    <ClCompile Include="..\Sources\Core\ResourcesManager.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene.cpp" />
+    <ClCompile Include="..\Sources\Core\SceneManager.cpp" />
+    <ClCompile Include="..\Sources\Core\SerializationManager.cpp" />
+    <ClCompile Include="..\Sources\Core\Time.cpp" />
+    <ClCompile Include="..\Sources\Debug\Assert.cpp" />
+    <ClCompile Include="..\Sources\Debug\Log.cpp" />
+    <ClCompile Include="..\Sources\Inputs\GamepadState.cpp" />
+    <ClCompile Include="..\Sources\Inputs\Input.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputAction.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputAxis.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputManager.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputPattern.cpp" />
+    <ClCompile Include="..\Sources\Inputs\InputType.cpp" />
+    <ClCompile Include="..\Sources\Libraries\ImGui\imgui.cpp" />
+    <ClCompile Include="..\Sources\Libraries\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="..\Sources\Libraries\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="..\Sources\Libraries\ImGui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\Sources\Libraries\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\Sources\Libraries\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="..\Sources\Maths\Quaternion.cpp" />
+    <ClCompile Include="..\Sources\Maths\Vec2.cpp" />
+    <ClCompile Include="..\Sources\Maths\Vec3.cpp" />
+    <ClCompile Include="..\Sources\Physic\Physics.cpp" />
+    <ClCompile Include="..\Sources\Physic\RigidBody.cpp" />
+    <ClCompile Include="..\Sources\Physic\Transform.cpp" />
+    <ClCompile Include="..\Sources\Tests\InputsMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\ComponentSystem\Component.h" />
+    <ClInclude Include="..\Includes\ComponentSystem\ComponentsManager.h" />
+    <ClInclude Include="..\Includes\ComponentSystem\GameObject.h" />
+    <ClInclude Include="..\Includes\ComponentSystem\UpdatableComponent.h" />
+    <ClInclude Include="..\Includes\Core\EModelCharacteristics.h" />
+    <ClInclude Include="..\Includes\Core\Engine.h" />
+    <ClInclude Include="..\Includes\Core\ReflectionRegistration.h" />
+    <ClInclude Include="..\Includes\Core\Render\Camera.h" />
+    <ClInclude Include="..\Includes\Core\Render\Framebuffer.h" />
+    <ClInclude Include="..\Includes\Core\Render\Light.h" />
+    <ClInclude Include="..\Includes\Core\Render\Material.h" />
+    <ClInclude Include="..\Includes\Core\Render\Mesh.h" />
+    <ClInclude Include="..\Includes\Core\Render\Model.h" />
+    <ClInclude Include="..\Includes\Core\Render\Renderer.h" />
+    <ClInclude Include="..\Includes\Core\Render\RHI.h" />
+    <ClInclude Include="..\Includes\Core\Render\Shader.h" />
+    <ClInclude Include="..\Includes\Core\Render\Texture.h" />
+    <ClInclude Include="..\Includes\Core\Render\WindowManager.h" />
+    <ClInclude Include="..\Includes\Core\ResourcesManager.h" />
+    <ClInclude Include="..\Includes\Core\Scene.h" />
+    <ClInclude Include="..\Includes\Core\SceneManager.h" />
+    <ClInclude Include="..\Includes\Core\SerializationManager.h" />
+    <ClInclude Include="..\Includes\Core\Time.h" />
+    <ClInclude Include="..\Includes\Debug\Assert.h" />
+    <ClInclude Include="..\Includes\Debug\EConsoleColor.h" />
+    <ClInclude Include="..\Includes\Debug\Log.h" />
+    <ClInclude Include="..\Includes\DLL.h" />
+    <ClInclude Include="..\Includes\Galatea.h" />
+    <ClInclude Include="..\Includes\Inputs\Axes.h" />
+    <ClInclude Include="..\Includes\Inputs\EAxisType.h" />
+    <ClInclude Include="..\Includes\Inputs\EDeviceType.h" />
+    <ClInclude Include="..\Includes\Inputs\EInputState.h" />
+    <ClInclude Include="..\Includes\Inputs\Event.h" />
+    <ClInclude Include="..\Includes\Inputs\GamepadAxes.h" />
+    <ClInclude Include="..\Includes\Inputs\GamepadButtons.h" />
+    <ClInclude Include="..\Includes\Inputs\GamepadID.h" />
+    <ClInclude Include="..\Includes\Inputs\GamepadState.h" />
+    <ClInclude Include="..\Includes\Inputs\Input.h" />
+    <ClInclude Include="..\Includes\Inputs\InputAction.h" />
+    <ClInclude Include="..\Includes\Inputs\InputAxis.h" />
+    <ClInclude Include="..\Includes\Inputs\InputManager.h" />
+    <ClInclude Include="..\Includes\Inputs\InputPattern.h" />
+    <ClInclude Include="..\Includes\Inputs\InputType.h" />
+    <ClInclude Include="..\Includes\Inputs\Keys.h" />
+    <ClInclude Include="..\Includes\Inputs\MouseButtons.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\aabb.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ai_assert.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\anim.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\BaseImporter.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Bitmap.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\BlobIOSystem.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ByteSwapper.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\camera.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\cexport.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\cfileio.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\cimport.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\color4.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Compiler\poppack1.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Compiler\pstdint.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Compiler\pushpack1.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\config.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\CreateAnimMesh.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\DefaultIOStream.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\DefaultIOSystem.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\DefaultLogger.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Defines.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\defs.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Exceptional.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Exporter.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\fast_atof.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\GenericProperty.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Hash.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Importer.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\importerdesc.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\IOStream.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\IOStreamBuffer.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\IOSystem.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\irrXMLWrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\light.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\LineSplitter.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\LogAux.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Logger.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\LogStream.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Macros.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\material.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\MathFunctions.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\matrix3x3.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\matrix4x4.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\MemoryIOWrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\mesh.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\metadata.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\NullLogger.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ParsingUtils.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\pbrmaterial.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\port\AndroidJNI\AndroidJNIIOSystem.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\postprocess.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Profiler.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ProgressHandler.hpp" />
+    <ClInclude Include="..\Includes\Libraries\assimp\qnan.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\quaternion.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\RemoveComments.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\scene.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SceneCombiner.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SGSpatialSort.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SkeletonMeshBuilder.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SmoothingGroups.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\SpatialSort.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StandardShapes.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StreamReader.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StreamWriter.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StringComparison.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\StringUtils.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Subdivision.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\texture.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\TinyFormatter.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\types.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\vector2.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\vector3.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\version.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\Vertex.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\XMLTools.h" />
+    <ClInclude Include="..\Includes\Libraries\assimp\ZipArchiveIOSystem.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\access.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\archives\adapters.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\archives\binary.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\archives\json.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\archives\portable_binary.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\archives\xml.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\cereal.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\details\helpers.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\details\polymorphic_impl.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\details\polymorphic_impl_fwd.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\details\static_object.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\details\traits.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\details\util.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\base64.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\allocators.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\document.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\encodedstream.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\encodings.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\error\en.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\error\error.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\filereadstream.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\filewritestream.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\fwd.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\itoa.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\meta.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\pow10.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\regex.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\stack.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\strtod.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\internal\swap.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\memorybuffer.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\memorystream.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\pointer.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\prettywriter.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\rapidjson.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\reader.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\schema.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\stream.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\stringbuffer.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidjson\writer.h" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\external\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\macros.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\specialize.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\array.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\atomic.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\base_class.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\bitset.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\boost_variant.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\chrono.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\common.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\complex.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\concepts\pair_associative_container.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\deque.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\forward_list.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\functional.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\list.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\map.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\memory.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\optional.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\polymorphic.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\queue.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\set.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\stack.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\string.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\tuple.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\unordered_map.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\unordered_set.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\utility.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\valarray.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\variant.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\types\vector.hpp" />
+    <ClInclude Include="..\Includes\Libraries\Cereal\version.hpp" />
+    <ClInclude Include="..\Includes\Libraries\GLFW\glfw3.h" />
+    <ClInclude Include="..\Includes\Libraries\GLFW\glfw3native.h" />
+    <ClInclude Include="..\Includes\Libraries\GL\eglew.h" />
+    <ClInclude Include="..\Includes\Libraries\GL\glew.h" />
+    <ClInclude Include="..\Includes\Libraries\GL\glxew.h" />
+    <ClInclude Include="..\Includes\Libraries\GL\wglew.h" />
+    <ClInclude Include="..\Includes\Libraries\ImGui\imconfig.h" />
+    <ClInclude Include="..\Includes\Libraries\ImGui\imgui.h" />
+    <ClInclude Include="..\Includes\Libraries\ImGui\imgui_impl_glfw.h" />
+    <ClInclude Include="..\Includes\Libraries\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\Includes\Libraries\ImGui\imgui_internal.h" />
+    <ClInclude Include="..\Includes\Libraries\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\Includes\Libraries\ImGui\imstb_textedit.h" />
+    <ClInclude Include="..\Includes\Libraries\ImGui\imstb_truetype.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\access_levels.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\argument.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\array_range.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\associative_mapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\constructor.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\destructor.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\base\core_prerequisites.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\base\version.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\comparison\comparable_types.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\comparison\compare_array_equal.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\comparison\compare_array_equal_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\comparison\compare_array_less.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\comparison\compare_array_less_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\comparison\compare_equal.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\comparison\compare_equal_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\comparison\compare_less.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\comparison\compare_less_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\constructor\constructor_invoker.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\constructor\constructor_wrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\constructor\constructor_wrapper_base.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\constructor\constructor_wrapper_defaults.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\conversion\number_conversion.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\conversion\std_conversion_functions.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\default_arguments\default_arguments.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\default_arguments\invoke_with_defaults.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\destructor\destructor_wrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\destructor\destructor_wrapper_base.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\enumeration\enumeration_helper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\enumeration\enumeration_wrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\enumeration\enumeration_wrapper_base.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\enumeration\enum_data.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\filter\filter_item_funcs.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\impl\argument_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\impl\array_range_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\impl\associative_mapper_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\impl\enum_flags_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\impl\instance_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\impl\rttr_cast_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\impl\sequential_mapper_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\impl\string_view_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\impl\wrapper_mapper_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\metadata\metadata.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\metadata\metadata_handler.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\method\method_accessor.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\method\method_invoker.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\method\method_wrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\method\method_wrapper_base.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\argument_extractor.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\argument_wrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\class_item_mapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\data_address_container.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\flat_map.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\flat_multimap.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\function_traits.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\iterator_wrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\misc_type_traits.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\register_wrapper_mapper_conversion.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\sequential_container_type_traits.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\std_type_traits.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\template_type_trait.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\template_type_trait_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\misc\utility.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\parameter_info\parameter_infos.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\parameter_info\parameter_infos_compare.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\parameter_info\parameter_info_wrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\parameter_info\parameter_info_wrapper_base.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\parameter_info\parameter_names.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\policies\ctor_policies.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\policies\meth_policies.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\policies\prop_policies.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\property\property_accessor.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\property\property_wrapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\property\property_wrapper_base.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\property\property_wrapper_func.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\property\property_wrapper_member_func.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\property\property_wrapper_member_object.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\property\property_wrapper_object.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\registration\bind_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\registration\bind_types.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\registration\register_base_class_from_accessor.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\registration\registration_executer.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\registration\registration_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\registration\registration_manager.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\registration\registration_state_saver.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\accessor_type.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\base_classes.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\get_create_variant_func.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\get_derived_info_func.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\type_comparator.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\type_converter.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\type_data.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\type_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\type_name.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\type_register.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\type\type_string_utils.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant\variant_compare.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant\variant_data.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant\variant_data_converter.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant\variant_data_policy.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant\variant_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant_associative_view\variant_associative_view_creator.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant_associative_view\variant_associative_view_creator_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant_associative_view\variant_associative_view_private.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant_sequential_view\variant_sequential_view_creator.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant_sequential_view\variant_sequential_view_creator_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\variant_sequential_view\variant_sequential_view_private.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\visitor\constructor_visitor_invoker.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\visitor\create_type_visitor_func.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\visitor\create_type_visitor_func_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\visitor\method_visitor_invoker.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\visitor\property_visitor_invoker.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\visitor\type_visitor_invoker.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\visitor\visitor_impl.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\visitor\visitor_iterator.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\detail\visitor\visitor_registration.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\enumeration.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\enum_flags.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\filter_item.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\instance.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\library.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\method.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\parameter_info.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\policy.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\property.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\registration.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\registration_friend.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\rttr_cast.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\rttr_enable.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\sequential_mapper.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\string_view.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\type.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\type_list.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\variant.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\variant_associative_view.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\variant_sequential_view.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\visitor.h" />
+    <ClInclude Include="..\Includes\Libraries\rttr\wrapper_mapper.h" />
+    <ClInclude Include="..\Includes\Libraries\stb_image.h" />
+    <ClInclude Include="..\Includes\Maths\Mat4.h" />
+    <ClInclude Include="..\Includes\Maths\MathsTools.h" />
+    <ClInclude Include="..\Includes\Maths\Quaternion.h" />
+    <ClInclude Include="..\Includes\Maths\Vec2.h" />
+    <ClInclude Include="..\Includes\Maths\Vec3.h" />
+    <ClInclude Include="..\Includes\Maths\Vec4.h" />
+    <ClInclude Include="..\Includes\Physic\Physics.h" />
+    <ClInclude Include="..\Includes\Physic\RigidBody.h" />
+    <ClInclude Include="..\Includes\Physic\Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Includes\Debug\Log.inl" />
+    <None Include="..\Includes\Inputs\Event.inl" />
+    <None Include="..\Includes\Inputs\GamepadState.inl" />
+    <None Include="..\Includes\Inputs\Input.inl" />
+    <None Include="..\Includes\Inputs\InputAction.inl" />
+    <None Include="..\Includes\Inputs\InputAxis.inl" />
+    <None Include="..\Includes\Inputs\InputManager.inl" />
+    <None Include="..\Includes\Inputs\InputPattern.inl" />
+    <None Include="..\Includes\Inputs\InputType.inl" />
+    <None Include="..\Includes\Libraries\assimp\.editorconfig" />
+    <None Include="..\Includes\Libraries\assimp\color4.inl" />
+    <None Include="..\Includes\Libraries\assimp\config.h.in" />
+    <None Include="..\Includes\Libraries\assimp\material.inl" />
+    <None Include="..\Includes\Libraries\assimp\matrix3x3.inl" />
+    <None Include="..\Includes\Libraries\assimp\matrix4x4.inl" />
+    <None Include="..\Includes\Libraries\assimp\quaternion.inl" />
+    <None Include="..\Includes\Libraries\assimp\SmoothingGroups.inl" />
+    <None Include="..\Includes\Libraries\assimp\vector2.inl" />
+    <None Include="..\Includes\Libraries\assimp\vector3.inl" />
+    <None Include="..\Includes\Libraries\Cereal\external\rapidxml\manual.html" />
+    <None Include="..\Includes\Libraries\rttr\registration" />
+    <None Include="..\Includes\Libraries\rttr\registration_friend" />
+    <None Include="..\Includes\Libraries\rttr\type" />
+    <None Include="..\Includes\Maths\Mat4.inl" />
+    <None Include="..\Includes\Maths\Quaternion.inl" />
+    <None Include="..\Includes\Maths\Vec2.inl" />
+    <None Include="..\Includes\Maths\Vec3.inl" />
+    <None Include="..\Includes\Maths\Vec4.inl" />
+    <None Include="..\Includes\Physic\Transform.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Includes\Libraries\Cereal\external\rapidxml\license.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{BBA60CC4-466D-4CD7-BF8F-A5E6B6F2D552}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Inputs</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\bin</IntDir>
+    <OutDir>$(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\bin</IntDir>
+    <OutDir>$(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(Platform)\$(ProjectName)\$(Configuration)\bin</IntDir>
+    <OutDir>$(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Includes;$(SolutionDir)Includes\Libraries;$(SolutionDir)Includes/Libraries/PhysX/include;$(SolutionDir)Includes/Libraries/PxShared/include;$(SolutionDir)Includes/Libraries/ImGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libraries\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;glfw3.lib;OpenGL32.lib;PhysXVehicle_static_64.lib;PhysXTask_static_64.lib;PhysXPvdSDK_static_64.lib;PhysXFoundation_64.lib;PhysXExtensions_static_64.lib;PhysXCooking_64.lib;PhysXCommon_64.lib;PhysXCharacterKinematic_static_64.lib;PhysX_64.lib;assimp-vc142-mtd.lib;IrrXMLd.lib;zlibd.lib;zlibstaticd.lib;rttr_core_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(SolutionDir)DLL\$(Configuration)\* $(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\.</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUGEXE;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Includes;$(SolutionDir)Includes\Libraries;$(SolutionDir)Includes/Libraries/PhysX/include;$(SolutionDir)Includes/Libraries/PxShared/include;$(SolutionDir)Includes/Libraries/ImGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libraries\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;glfw3.lib;OpenGL32.lib;PhysXVehicle_static_64.lib;PhysXTask_static_64.lib;PhysXPvdSDK_static_64.lib;PhysXFoundation_64.lib;PhysXExtensions_static_64.lib;PhysXCooking_64.lib;PhysXCommon_64.lib;PhysXCharacterKinematic_static_64.lib;PhysX_64.lib;assimp-vc142-mtd.lib;IrrXMLd.lib;zlibd.lib;zlibstaticd.lib;vld.lib;rttr_core_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(SolutionDir)DLL\Debug\* $(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\.</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugExe|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Includes;$(SolutionDir)Includes\Libraries;$(SolutionDir)Includes/Libraries/PhysX/include;$(SolutionDir)Includes/Libraries/PxShared/include;$(SolutionDir)Includes/Libraries/ImGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libraries\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;glfw3.lib;OpenGL32.lib;PhysXVehicle_static_64.lib;PhysXTask_static_64.lib;PhysXPvdSDK_static_64.lib;PhysXFoundation_64.lib;PhysXExtensions_static_64.lib;PhysXCooking_64.lib;PhysXCommon_64.lib;PhysXCharacterKinematic_static_64.lib;PhysX_64.lib;assimp-vc142-mt.lib;IrrXML.lib;zlib.lib;zlibstatic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(SolutionDir)DLL\$(Configuration)\* $(SolutionDir)$(Platform)\$(ProjectName)\$(Configuration)\.</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
